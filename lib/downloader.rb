@@ -1,4 +1,5 @@
 require 'typhoeus'
+require 'ap'
 
 module Grab
   class Downloader
@@ -33,6 +34,7 @@ module Grab
     private
 
       def save_file(url, data)
+        ap url
         @file_saver.save(url, data)
       end
 
