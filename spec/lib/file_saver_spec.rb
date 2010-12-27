@@ -2,6 +2,8 @@ require 'spec_helper'
 
 require 'downloader'
 
+require 'tmpdir'
+
 describe Grab::FileSaver do
 
   it "creates destination directory if it does not exist" do

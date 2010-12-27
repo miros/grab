@@ -4,3 +4,4 @@ gem "awesome_print", :require => 'ap'
 gem "rspec", :require => "spec"
 gem "fakeweb"
 gem "typhoeus"
+gem "addressable"

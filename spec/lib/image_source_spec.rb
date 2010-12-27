@@ -6,6 +6,13 @@ describe Grab::ImageSource do
 
   FakeWeb.allow_net_connect = false
 
+  it "handles urls without scheme" do
+
+    source = Grab::ImageSource.new('www.google.com')
+    source.page_uri.to_s.should == "http://www.google.com"
+  end
+
+
   describe ".image_urls" do
 
     let(:url) { "http://test.ru/test/test.html" }

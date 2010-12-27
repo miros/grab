@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="869c7fef-cef4-45d1-8598-351ce552444a" name="Default" comment="" />
+    <list default="true" id="869c7fef-cef4-45d1-8598-351ce552444a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/grab.iml" afterPath="$PROJECT_DIR$/.idea/grab.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grab.rb" afterPath="$PROJECT_DIR$/grab.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/image_source.rb" afterPath="$PROJECT_DIR$/lib/image_source.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/file_saver_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/file_saver_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/image_source_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/image_source_spec.rb" />
+    </list>
     <ignored path="grab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,23 +41,48 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Branch.Configurations">
+    <option name="CURRENT" value="master" />
+    <option name="CONFIGURATIONS">
+      <array>
+        <BranchConfiguration>
+          <option name="IS_AUTO_DETECTED" value="true" />
+          <option name="NAME" value="master" />
+          <option name="BRANCHES">
+            <array>
+              <BranchInfo>
+                <option name="ROOT" value="$PROJECT_DIR$" />
+                <option name="REFERENCE" value="master" />
+              </BranchInfo>
+            </array>
+          </option>
+        </BranchConfiguration>
+      </array>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="GIT_EXECUTABLE" value="/usr/bin/git" />
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/image_source_spec.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/image_loader.rb" />
         <option value="$PROJECT_DIR$/spec/lib/downloader_spec.rb" />
         <option value="$PROJECT_DIR$/lib/downloader.rb" />
         <option value="$PROJECT_DIR$/lib/file_saver.rb" />
         <option value="$PROJECT_DIR$/lib/grabber.rb" />
         <option value="$PROJECT_DIR$/spec/lib/grabber_spec.rb" />
-        <option value="$PROJECT_DIR$/grab.rb" />
         <option value="$PROJECT_DIR$/spec/integrational/file_saver_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/image_source.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/file_saver_spec.rb" />
         <option value="$PROJECT_DIR$/spec/integrational/grab_spec.rb" />
+        <option value="$PROJECT_DIR$/grab.rb" />
+        <option value="$PROJECT_DIR$/.rspec" />
+        <option value="$PROJECT_DIR$/spec/lib/file_saver_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/image_source_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/image_source.rb" />
       </list>
     </option>
   </component>
@@ -76,8 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -98,6 +132,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,22 +221,42 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1282" height="733" extended-state="6" />
+    <frame x="-1" y="24" width="1602" height="857" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6721854" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20558375" sideWeight="0.6703297" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -240,91 +296,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="53" selection-end="53" vertical-scroll-proportion="0.13309982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/image_source_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1002" selection-end="1002" vertical-scroll-proportion="1.3309983">
-          <folding />
-        </state>
+        <state line="4" column="5" selection-start="53" selection-end="53" vertical-scroll-proportion="0.13309982" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/downloader_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.09982487">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.16637479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/downloader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="226" selection-end="226" vertical-scroll-proportion="0.49912435">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.09982487" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/grabber_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="237" selection-end="237" vertical-scroll-proportion="0.3628472">
-          <folding />
-        </state>
+        <state line="11" column="26" selection-start="237" selection-end="237" vertical-scroll-proportion="0.3628472" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/file_saver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="276" selection-end="276" vertical-scroll-proportion="0.49479166">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/grabber.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="94" selection-end="94" vertical-scroll-proportion="0.19791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grab.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="154" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/image_source.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="331" selection-end="331" vertical-scroll-proportion="0.59375">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="276" selection-end="276" vertical-scroll-proportion="0.49479166" />
       </provider>
     </entry>
     <entry file="file:///usr/local/ruby/lib/ruby/1.9.1/tmpdir.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="646" selection-end="654" vertical-scroll-proportion="-0.4777975">
+        <state line="34" column="16" selection-start="646" selection-end="654" vertical-scroll-proportion="-0.4777975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integrational/grab_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="412" selection-end="412" vertical-scroll-proportion="0.46180555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/downloader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="519" selection-end="519" vertical-scroll-proportion="0.6514286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/file_saver_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="557" selection-end="557" vertical-scroll-proportion="0.7361111">
+        <state line="4" column="3" selection-start="48" selection-end="48" vertical-scroll-proportion="0.108571425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/integrational/grab_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/image_source.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="412" selection-end="412" vertical-scroll-proportion="0.46180555">
+        <state line="34" column="20" selection-start="739" selection-end="739" vertical-scroll-proportion="0.92285717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/image_source_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="250" selection-end="250" vertical-scroll-proportion="0.29857144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/grabber.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="94" selection-end="94" vertical-scroll-proportion="0.16285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grab.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.108571425">
           <folding />
         </state>
       </provider>

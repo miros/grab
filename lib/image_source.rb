@@ -1,11 +1,14 @@
 require 'open-uri'
 require 'nokogiri'
+require "addressable/uri"
 
 module Grab
   class ImageSource
 
+    attr_reader :page_uri
+
     def initialize(url)
-      @page_uri = URI::parse(url)
+      @page_uri = Addressable::URI.heuristic_parse(url)
     end
 
     def image_urls
@@ -25,14 +28,14 @@ module Grab
         return img_uri.to_s if img_uri.absolute?
 
         if url[0] == '/'
-          @page_uri.clone.tap {|new_uri| new_uri.path = url }
+          page_uri.clone.tap {|new_uri| new_uri.path = url }
         else
-          @page_uri + img_uri
+          URI::parse(page_uri.to_s) + img_uri
         end.to_s
       end
 
       def page_html
-        @page_html ||= open(@page_uri).read
+        @page_html ||= open(page_uri).read
       end
 
   end
